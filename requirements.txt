@@ -1,0 +1,16 @@
+requests>=2.31.0
+mlx-whisper>=0.4.2
+numpy>=2.0.0
+soundfile>=0.12.0
+onnxruntime>=1.19.0
+av>=14.0.0
+
+# ========== convert2mlx.py 依赖 ==========
+# python3 convert2mlx.py --torch-name-or-path chickenrice0721/whisper-large-v2-translate-zh-v0.2-st --mlx-path mlx_models/ja_zh_v2_0.2
+# 核心依赖（转换模型必需）
+# torch>=2.0.0                   # 加载原始 OpenAI .pt 权重
+# mlx>=0.20.0                    # Apple MLX 框架 (mlx.core, mlx.nn, mlx.utils)
+# tqdm>=4.66.0                   # 下载进度条
+
+# 可选依赖（按需安装）
+# huggingface_hub>=0.20.0        # 从 Hugging Face 下载模型 / 上传到 Hub

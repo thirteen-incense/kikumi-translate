@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# 缓存目录（音频下载、模型权重、debug 字幕、db token 等均在此）
+cache/*
+!cache/input/.gitkeep
+!cache/mlx_models/.gitkeep
+
+# 运行时缓存
+task_cache.json
+
+# 系统文件
+.DS_Store
+
+# IDE / Agent 配置
+reasonix.toml
+/.codegraph
